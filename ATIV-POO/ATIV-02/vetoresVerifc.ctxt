@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=vetoresVerifc
+comment1.params=nVetorA
+comment1.target=vetoresVerifc(int[])
+comment2.params=nVetorA
+comment2.target=void\ setVetorA(int[])
+comment3.params=
+comment3.target=int[]\ getVetorA()
+comment4.params=
+comment4.target=int[]\ verificarImparesA()
+numComments=5
