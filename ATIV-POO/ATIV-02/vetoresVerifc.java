@@ -28,7 +28,7 @@ public class vetoresVerifc
     //Vetores calculo
     public int[] verificarImparesA() {
         int[] guardA = new int[10];
-        for (int i = 0; i < vetorA.length; i++) {
+        for (int i = 0; i < vetorA.length; i++) {''
             if (vetorA[i] % 2 != 0) {
                 guardA[i] = vetorA[i];
             }
