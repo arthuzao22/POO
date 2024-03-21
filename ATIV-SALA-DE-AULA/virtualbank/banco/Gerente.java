@@ -1,3 +1,5 @@
+package banco;
+
 import java.util.Date;
 public class Gerente extends FuncionarioBanco
 {
