@@ -39,7 +39,10 @@ public class Main {
         if (listar) {
             System.out.println("\nLista de Produtos:");
             for (Produto produto : produtos) {
-                produto.exibirInformacoes();
+                System.out.println("Nome: " + produto.getNome());
+                System.out.println("Código de Barras: " + produto.getCodBarras());
+                System.out.println("Preço: " + produto.getPreco());
+                System.out.println("Quantidade: " + produto.getQtde());
                 System.out.println(); // Adiciona uma linha em branco entre os produtos
             }
         }

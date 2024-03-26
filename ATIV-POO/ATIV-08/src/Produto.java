@@ -40,14 +40,6 @@ public class Produto {
         this.qtde = qtde;
     }
 
-    //métodos
-    public void exibirInformacoes(){
-        System.out.println("Nome: " + nome);
-        System.out.println("Codigo de barras: " + codBarras);
-        System.out.println("preco: " + preco);
-        System.out.println("QTDE: " + qtde);
-    }
-
 
 
 }
