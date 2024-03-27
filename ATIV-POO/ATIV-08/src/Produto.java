@@ -39,7 +39,4 @@ public class Produto {
     public void setQtde(int qtde){
         this.qtde = qtde;
     }
-
-
-
 }
