@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ATIV-POO/ATIV-03/ATIV-03.iml" filepath="$PROJECT_DIR$/ATIV-POO/ATIV-03/ATIV-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ATIV-POO/ATIV-04/ATIV-04.iml" filepath="$PROJECT_DIR$/ATIV-POO/ATIV-04/ATIV-04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ATIV-POO/ATIV-05/ATIV-05.iml" filepath="$PROJECT_DIR$/ATIV-POO/ATIV-05/ATIV-05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ATIV-POO/ATIV-06/ATIV-06.iml" filepath="$PROJECT_DIR$/ATIV-POO/ATIV-06/ATIV-06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ATIV-POO/ATIV-07/ATIV-07.iml" filepath="$PROJECT_DIR$/ATIV-POO/ATIV-07/ATIV-07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ATIV-POO/ATIV-08/ATIV-08.iml" filepath="$PROJECT_DIR$/ATIV-POO/ATIV-08/ATIV-08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ATIV-POO/ATIV-POO.iml" filepath="$PROJECT_DIR$/ATIV-POO/ATIV-POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ATIV-SALA-DE-AULA/ATIV-SALA-DE-AULA.iml" filepath="$PROJECT_DIR$/ATIV-SALA-DE-AULA/ATIV-SALA-DE-AULA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/POO.iml" filepath="$PROJECT_DIR$/.idea/POO.iml" />
+    </modules>
+  </component>
+</project>
