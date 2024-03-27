@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 public class Produto {
+    ArrayList<Produto> produtos = new ArrayList<>(); // cria um array para armazenar os produtos
     private String nome;
     private String codBarras;
     private double preco;
@@ -40,5 +42,13 @@ public class Produto {
         this.qtde = qtde;
     }
 
+    // MÉTODOS
+    public double calcPreco(ArrayList<Produto> produtos){
+        for (Produto produto : produtos) {
+            double soma = 0 ;
+            return soma += getPreco() * getQtde();
+        }
+        return 0;
+    }
 
 }

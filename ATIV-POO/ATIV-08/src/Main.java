@@ -15,8 +15,10 @@ public class Main {
 
         int Menu = 0;
         System.out.println("---------- - MENU - -----------");
-        System.out.println("--------- LISTAR  - 1 ---------");
-        System.out.println("--------- INSERIR - 2 ---------");
+        System.out.println("-------------- LISTAR  - 1 -------------");
+        System.out.println("-------------- INSERIR - 2 -------------");
+        System.out.println("---- VERIFICAR  DESPESAS DO MES  - 3 ---");
+
         System.out.println(" ");
 
         System.out.println(" INFORME OQUE VOCE QUER FAZER: ");
@@ -25,10 +27,19 @@ public class Main {
             ListarProd(produtos);
         } else if (Menu == 2) {
             InserirProd(produtos);
-        } else {
+        } else if (Menu == 3) {
+            verPreco(produtos);
+        }else {
             System.out.println("ATÉ A PROXIMA!!!");
         }
     }
+
+    // VERIFICAR TODOS OS PREÇOS
+    public static void verPreco(ArrayList<Produto> produtos){
+        Produto produto = new Produto(); // Criando uma instância de Produto
+        System.out.println("O VALOR TOTAL DA COMPRAS DO MES FOI DE: " + produto.calcPreco(produtos));
+    }
+
 
     // USADO PARA INSERIR O PRODUTO
     public static void InserirProd(ArrayList<Produto> produtos){
