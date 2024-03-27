@@ -60,7 +60,7 @@ public class Main {
 
             read.nextLine(); // Limpa o buffer do scanner
         }
-        Menu(produtos); // volta para o método MENU
+        Menu(produtos); // volta para o método MENU.
     }
 
     // LISTAR OS PRODUTOS
