@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner read = new Scanner(System.in);
         ArrayList<Produto> produtos = new ArrayList<>(); // cria um array para armazenar os produtos
 
         Menu(produtos); // chamar o método menu
