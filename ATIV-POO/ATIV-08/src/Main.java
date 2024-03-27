@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
@@ -32,21 +31,26 @@ public class Main {
             read.nextLine(); // Limpa o buffer do scanner
         }
 
+        // chama o método listar
         boolean listar;
         System.out.println("Você deseja listar os produtos? (true ou false)");
         listar = read.nextBoolean();
 
-        if (listar) {
-            System.out.println("\nLista de Produtos:");
+        if (listar){ // passando para o método
+            ListarProd(produtos);
+        }
+
+        read.close(); // Fecha o Scanner
+    }
+    public static void ListarProd(ArrayList<Produto> produtos){
+
+        System.out.println("\nLista de Produtos:");
             for (Produto produto : produtos) {
                 System.out.println("Nome: " + produto.getNome());
                 System.out.println("Código de Barras: " + produto.getCodBarras());
                 System.out.println("Preço: " + produto.getPreco());
                 System.out.println("Quantidade: " + produto.getQtde());
-                System.out.println(); // Adiciona uma linha em branco entre os produtos
+                System.out.println();
             }
-        }
-
-        read.close(); // Fecha o Scanner
     }
 }
